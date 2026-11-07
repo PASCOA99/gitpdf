@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "notapdf-studio-online",
+  "main": "./src/worker.js",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "GITHUB_OWNER": "TROQUE-PELO-SEU-USUARIO",
+    "GITHUB_REPO": "TROQUE-PELO-REPOSITORIO",
+    "GITHUB_BRANCH": "main",
+    "GITHUB_APP_SLUG": "TROQUE-PELO-SLUG-DA-APP"
+  }
+}
